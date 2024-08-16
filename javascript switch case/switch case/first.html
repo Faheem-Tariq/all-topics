@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    
+    var trafficLight = "red";
+let message = ""
+ 
+switch (trafficLight) {
+    case "red":
+        message = "Stop immediately.";
+        break;
+    case "yellow":
+        message = "Prepare to stop.";
+        break;
+    case "green":
+        message = "Proceed or continue driving.";
+        break;
+    default:
+        message = "Invalid traffic light color.";
+}
+ 
+console.log(message)
+ 
+// Output: Proceed or continue driving.
+</script>
+</html>
